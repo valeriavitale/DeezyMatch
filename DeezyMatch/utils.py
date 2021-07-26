@@ -19,6 +19,7 @@ from torch.nn.modules.module import _addindent
 
 
 # ------------------- normalizeString --------------------
+#add documentation here
 def normalizeString(s, uni2ascii=False, lowercase=False, strip=False, only_latin_letters=False, prefix_suffix=["|", "|"]):
     if uni2ascii:
         s = unicodedata.normalize('NFKD', str(s))
